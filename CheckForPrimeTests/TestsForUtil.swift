@@ -9,8 +9,12 @@
 import XCTest
 
 @testable import CheckForPrime
+// what happens when we don't have @testable?
+// chage something 
 
 class TestsForUtil: XCTestCase {
+    
+    
     // edit scheme for CheckForPrimeTests
     func testTwoIsPrime() {
         let number:Int = 2
@@ -25,11 +29,13 @@ class TestsForUtil: XCTestCase {
     
     func testFourIsPrime() {
         let number:Int = 4
-        /*
+        // what if we have code that we don't actually run and therefore is never tested?\
+        // code coverage can show you those sections
+        
         if (number == 6) {
             print("Wizardry")
         }
-        */
+        
         
         XCTAssertFalse(Util().isPrime(number), "4 is not a prime number")
     }
@@ -51,7 +57,7 @@ class TestsForUtil: XCTestCase {
         
     }
     
-   /* 
+   /*
     func testMinusOneIsPrime() {
         let number:Int = -1
         XCTAssertFalse(Util().isPrime(number), "-1 is not a prime number")

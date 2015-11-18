@@ -10,7 +10,7 @@ import Foundation
 
 public class Util {
     
-    internal func isPrime(number:Int) -> Bool {
+    func isPrime(number:Int) -> Bool {
         
         var primeFlag:Bool = true // test for prime-ness
         
