@@ -11,7 +11,7 @@ import XCTest
 @testable import CheckForPrime
 
 class TestsForUtil: XCTestCase {
-    // add scheme for CheckForPrimeTests
+    // edit scheme for CheckForPrimeTests
     func testTwoIsPrime() {
         let number:Int = 2
         XCTAssertTrue(Util().isPrime(number), "2 is a prime number")
