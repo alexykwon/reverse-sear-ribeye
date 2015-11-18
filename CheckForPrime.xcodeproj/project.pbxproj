@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADAC7D1B1BFC57F5002781EB /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = ADAC7D1A1BFC57F5002781EB /* .travis.yml */; };
 		ADD7A4A11BFC4684007230BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD7A4A01BFC4684007230BA /* AppDelegate.swift */; };
 		ADD7A4A31BFC4684007230BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD7A4A21BFC4684007230BA /* ViewController.swift */; };
 		ADD7A4A61BFC4684007230BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD7A4A41BFC4684007230BA /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ADAC7D1A1BFC57F5002781EB /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		ADD7A49D1BFC4684007230BA /* CheckForPrime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckForPrime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD7A4A01BFC4684007230BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADD7A4A21BFC4684007230BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		ADD7A4941BFC4684007230BA = {
 			isa = PBXGroup;
 			children = (
+				ADAC7D1A1BFC57F5002781EB /* .travis.yml */,
 				ADD7A49F1BFC4684007230BA /* CheckForPrime */,
 				ADD7A4B41BFC4684007230BA /* CheckForPrimeTests */,
 				ADD7A4BF1BFC4685007230BA /* CheckForPrimeUITests */,
@@ -235,6 +238,7 @@
 			files = (
 				ADD7A4AB1BFC4684007230BA /* LaunchScreen.storyboard in Resources */,
 				ADD7A4A81BFC4684007230BA /* Assets.xcassets in Resources */,
+				ADAC7D1B1BFC57F5002781EB /* .travis.yml in Resources */,
 				ADD7A4A61BFC4684007230BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +492,7 @@
 				ADD7A4C71BFC4685007230BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADD7A4C81BFC4685007230BA /* Build configuration list for PBXNativeTarget "CheckForPrimeTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				ADD7A4CA1BFC4685007230BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADD7A4CB1BFC4685007230BA /* Build configuration list for PBXNativeTarget "CheckForPrimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				ADD7A4CD1BFC4685007230BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
